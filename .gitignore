@@ -1,0 +1,6 @@
+dist/
+*.zip
+*.log
+*.tmp
+request.txt
+response.txt
