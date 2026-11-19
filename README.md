@@ -175,5 +175,10 @@ bash build.sh
 ├─ nms-ime-proxy.ini       运行配置（Debug）
 ├─ README.md               本文件（中文说明）
 ├─ README.en.md            英文说明
+├─ LICENSE                 MIT 许可证
 └─ dist/                   生成的构建产物（可直接分发）
 ```
+
+## 许可证
+
+MIT，见 [LICENSE](LICENSE)。

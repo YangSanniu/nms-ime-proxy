@@ -193,5 +193,10 @@ text is handed back without waiting for the panel process to exit.
 ├─ nms-ime-proxy.ini       runtime config (Debug)
 ├─ README.md               Chinese README (default)
 ├─ README.en.md            this file
+├─ LICENSE                 MIT license
 └─ dist/                   generated build output (ready to distribute)
 ```
+
+## License
+
+MIT — see [LICENSE](LICENSE).

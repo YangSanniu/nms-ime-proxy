@@ -23,5 +23,5 @@ rm -f dist/steam_api64.dll dist/nms-ime-panel.exe
   -out:"$ROOT\\dist\\nms-ime-panel.exe" -reference:System.dll -reference:System.Drawing.dll \
   -reference:System.Windows.Forms.dll "$ROOT\\panel\\panel.cs"
 
-cp -f nms-ime-proxy.ini install.ps1 README.md README.en.md dist/
+cp -f nms-ime-proxy.ini install.ps1 README.md README.en.md LICENSE dist/
 "$OBJDUMP" -p dist/steam_api64.dll | sed -n '/Ordinal\/Name Pointer/,/Function Table/p'

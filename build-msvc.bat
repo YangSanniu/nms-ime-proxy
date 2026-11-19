@@ -29,5 +29,6 @@ copy /y nms-ime-proxy.ini dist\ >nul
 copy /y install.ps1 dist\ >nul
 copy /y README.md dist\ >nul
 copy /y README.en.md dist\ >nul
+copy /y LICENSE dist\ >nul
 
 dumpbin /nologo /exports dist\steam_api64.dll | findstr /C:"SteamAPI_" /C:"SteamInternal_"
