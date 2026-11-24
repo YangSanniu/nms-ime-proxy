@@ -16,7 +16,7 @@ CSC="${CSC:-$(command -v csc.exe || true)}"
 mkdir -p dist
 rm -f dist/steam_api64.dll dist/nms-ime-panel.exe
 
-"$GXX" -O2 -shared -static-libgcc -static-libstdc++ -Wall -Wextra \
+"$GXX" -O2 -shared -static -static-libgcc -static-libstdc++ -Wall -Wextra \
   -o dist/steam_api64.dll steam_api64_proxy.cpp
 
 "$CSC" -nologo -codepage:65001 -target:winexe \
